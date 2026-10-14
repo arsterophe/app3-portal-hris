@@ -10,7 +10,9 @@ export default function TidakDitemukan() {
           404
         </p>
         <h1 className="mt-4 mb-2 text-2xl font-bold text-tinta">Halaman tidak ditemukan</h1>
-        <p className="mb-8 font-medium text-redup">Alamat yang kamu buka tidak ada. Periksa kembali alamatnya.</p>
+        <p className="mb-8 font-medium text-redup">
+          Halaman pendapatan yang kamu cari tidak tersedia. Periksa kembali alamat halaman atau kembali ke Beranda untuk melanjutkan.
+        </p>
         <Link href="/beranda" className="tombol-kunyit">
           <Ikon nama="kembali" />
           Kembali ke Beranda
